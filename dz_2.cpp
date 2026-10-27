@@ -25,7 +25,7 @@ int main()
     cout << "Произведение = " << p * q * r << endl << endl;
 
     int a, b;
-    cout << "4. Введите целые числа a и b (b != 0): ";
+    cout << "4. Введите целые числа a и b: ";
     cin >> a >> b;
     a = a % b;
     cout << "a = " << a << endl << endl;
@@ -36,7 +36,7 @@ int main()
     cout << "Результат = " << 3 * pow(x, 4) - 5 * pow(x, 3) * pow(y, 2) + 2 * pow(x, 3) + 0.2 * pow(y, 2) << endl << endl;
 
     double xx, aa;
-    cout << "6. Введите x и a (a != 0): ";
+    cout << "6. Введите x и a: ";
     cin >> xx >> aa;
     cout << "t2 = " << 2 * xx / pow(aa, 2) * sin(aa * xx) - (pow(xx, 2) / aa - 2 / pow(aa, 3)) * cos(aa * xx) << endl;
 
